@@ -8,3 +8,77 @@ red - #ee5253
 
 */
 
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.page-background {
+    background-image: url('https://github.com/jdxsmith/whats-for-dinner/blob/main/assets/burger-friends.jpg?raw=true');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #0fb9b1;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.recipe-button {
+    background: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 5px 10px;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+}
+
+.wrapper {
+    border: none;
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 460px;
+    justify-content: center;
+    align-items: stretch;
+    background-color: transparent;
+}
+
+.box {
+   display: flex;
+   flex-direction: column;
+   margin: 50px;
+   padding: 10px;
+   padding-left: 20px;
+   height: 45vh;
+   width: 40vw;
+   border: solid 1px white; 
+   background-color: white;
+   opacity: .9;
+   font-size: 1.8vw;
+   font-family: 'Roboto', sans-serif;
+}
+
+.box li {
+    font-size: 2vw;
+    list-style: none;
+}
+
+.box ul {
+    padding-left: 0px;
+}
+
+.box button {
+    height: 3vh;
+    width: 10vw;
+    font-size: 1.3vw;
+}
